@@ -5,6 +5,12 @@ import java.util.ArrayList;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
+/**
+ * @author swordy
+ * @email mryangjian@live.com
+ * @since Jan 19, 2014
+ * @version 1.0
+ */
 public class Gson1
 {
     private static final String TAG = "JavaDemos.Gson1";

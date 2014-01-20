@@ -1,6 +1,11 @@
 package com.swordy.demo.java.thread;
 
-
+/**
+ * @author swordy
+ * @email mryangjian@live.com
+ * @since Jan 19, 2014
+ * @version 1.0
+ */
 public class MultiThread2 {
 	private static final String TAG = "JavaDemos.MultiThread2";
 	

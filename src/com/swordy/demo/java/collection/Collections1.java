@@ -5,6 +5,12 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+/**
+ * @author swordy
+ * @email mryangjian@live.com
+ * @since Jan 19, 2014
+ * @version 1.0
+ */
 public class Collections1
 {
 	private static final String TAG = "JavaDemos.Collections";

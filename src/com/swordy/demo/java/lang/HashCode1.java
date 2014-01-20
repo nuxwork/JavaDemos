@@ -1,5 +1,11 @@
 package com.swordy.demo.java.lang;
 
+/**
+ * @author swordy
+ * @email mryangjian@live.com
+ * @since Jan 19, 2014
+ * @version 1.0
+ */
 public class HashCode1
 {
     private static final String TAG = "JavaDemos.HashCode1";

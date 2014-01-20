@@ -3,6 +3,12 @@ package com.swordy.demo.java.util;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * @author swordy
+ * @email mryangjian@live.com
+ * @since Jan 19, 2014
+ * @version 1.0
+ */
 public class Regex1
 {
     private static final String TAG = "JavaDemos.Regex";
