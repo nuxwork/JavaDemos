@@ -6,6 +6,8 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 /**
+ * Gson示例，演示json字符串转换成Entity以及Entity转换成Json串，
+ * 还演示了Gson转换成Entity链表，以及Entity链表转换成Json字符串。
  * @author swordy
  * @email mryangjian@live.com
  * @since Jan 19, 2014

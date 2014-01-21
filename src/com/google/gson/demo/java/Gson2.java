@@ -4,6 +4,8 @@ import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 
 /**
+ * Gson示例，演示Json字符串中的字段名与Entity中的字段名不一样时
+ * 该如何进行映射。
  * @author swordy
  * @email mryangjian@live.com
  * @since Jan 19, 2014
