@@ -1,4 +1,4 @@
-package com.google.gson.demo.java;
+package com.swordy.demo.thirdlib.gson;
 
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;

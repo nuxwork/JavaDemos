@@ -73,6 +73,7 @@ public class Annotation2
 
 	// Mapping的保存范围为RUNTIME
 	@Retention(RetentionPolicy.RUNTIME)
+	// 明确Mapping的作用范围
 	@Target(ElementType.FIELD)
 	private static @interface Mapping
 	{
@@ -81,6 +82,7 @@ public class Annotation2
 
 	// Convert的保存范围为SOURCE
 	@Retention(RetentionPolicy.SOURCE)
+	// 明确Convert的作用范围
 	@Target(ElementType.FIELD)
 	private static @interface Convert
 	{

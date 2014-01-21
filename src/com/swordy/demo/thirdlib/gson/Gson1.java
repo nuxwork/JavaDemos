@@ -1,4 +1,4 @@
-package com.google.gson.demo.java;
+package com.swordy.demo.thirdlib.gson;
 
 import java.util.ArrayList;
 
