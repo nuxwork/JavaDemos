@@ -1,6 +1,5 @@
 package com.swordy.demo.thirdlib.thumbnailator;
 
-import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileFilter;
 import java.io.IOException;
@@ -9,7 +8,6 @@ import java.util.Random;
 import net.coobird.thumbnailator.Thumbnails;
 import net.coobird.thumbnailator.Thumbnails.Builder;
 import net.coobird.thumbnailator.geometry.Positions;
-import net.coobird.thumbnailator.resizers.configurations.AlphaInterpolation;
 
 /**
  * Thumbnailator使用示例，演示了Thumbnailator对图片的

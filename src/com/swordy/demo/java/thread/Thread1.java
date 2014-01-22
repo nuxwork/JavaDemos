@@ -16,7 +16,7 @@ import java.lang.Thread.UncaughtExceptionHandler;
  */
 public class Thread1
 {
-	private static final String TAG = "JavaDemos.MultiThread1";
+	private static final String TAG = "JavaDemos.Thread1";
 
 	public static void main(String[] args)
 	{
