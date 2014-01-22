@@ -6,7 +6,7 @@ import java.lang.Thread.UncaughtExceptionHandler;
  * 1. 线程可以通过继承Thread实现，也可以通过实现Runnable接口实现
  * 2. 创建线程时最后给线程命名，方便定位问题。
  * 3. 多个线程运行时，会交替运行，运行的机会取决于优先级。
- * 4. yield()方法只是暂停当前线程的执行，不影响下次的竞争。
+ * 4. yield()方法只是暂停当前线程的执行，不影响下次执行机会的竞争。
  * 5. 线程中为捕获的异常可以通过实现UncaughtExceptionHandler接口来捕获。
  * 
  * @author swordy
