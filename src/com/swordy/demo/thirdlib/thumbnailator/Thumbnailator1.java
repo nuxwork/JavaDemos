@@ -124,7 +124,7 @@ public class Thumbnailator1
 						.toFile(outImgPath);
 
 				/*
-				 * 转换格式
+				 * 7. 转换格式
 				 * tips: 通过输出文件大小可以看出格式是否转换
 				 */
 				File outFile = new File(outImgPath);

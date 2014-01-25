@@ -70,7 +70,7 @@ public class MultiThread1
 			{
 				System.out.println(Thread.currentThread().getName());
 				/*
-				 * 不能再运后改变此属性，否则会出发异常。
+				 * 不能在运后改变此属性，否则会出发异常。
 				 */
 				// setDaemon(true);
 				Thread.yield();
