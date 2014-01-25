@@ -10,7 +10,7 @@ package com.swordy.demo.java.thread;
  * @since Jan 19, 2014
  * @version 1.0
  */
-public class Thread4
+public class Deamon1
 {
 	private static final String TAG = "JavaDemos.Thread4";
 
