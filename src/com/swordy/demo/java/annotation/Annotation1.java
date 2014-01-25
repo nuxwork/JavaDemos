@@ -26,17 +26,20 @@ public class Annotation1
 			if (annos == null || annos.length == 0)
 			{
 				System.out.println("Field: " + f.getName() + "\t no annotations.");
-			}
-
-			for (Annotation a : annos)
+			} else
 			{
-				System.out.println(a.annotationType().getName());
+				for (Annotation a : annos)
+				{
+					if (a != null)
+					{
+						System.out.println(a.annotationType().getName());
+					}
+				}
 			}
 		}
-		
+
 		/*
-		 * 由于此处的自定义Annotation没有添加@Retention属性，
-		 * 因此，所有的Field的getAnnotations()都为空。
+		 * 由于此处的自定义Annotation没有添加@Retention属性， 因此，所有的Field的getAnnotations()都为空。
 		 */
 	}
 
