@@ -6,6 +6,13 @@ import java.lang.reflect.Field;
 import com.swordy.demo.java.annotation.Annotation1.Anno6.Size;
 
 /**
+ * <li>1. Annotation的定义方式“public @interface MyAnno{}”; </li>
+ * <li>2. Annotation不能有构造函数，方法不能有参数;</li>
+ * <li>3. Annotation方法的返回值: only primitive type, String, Class, annotation,
+ enumeration are permitted or 1-dimensional arrays thereof; </li>
+ * <li>4. Annotation居然可以有属性！？有什么用呢？</li>
+ * 
+ * 
  * @author swordy
  * @email mryangjian@live.com
  * @since Jan 20, 2014
@@ -67,7 +74,7 @@ public class Annotation1
 		/*
 		 * 可以是数组
 		 */
-		@Anno4({ "rice", "bread", "cheese" })
+		@Anno4({ "milk", "cake" })
 		public String foods;
 
 		/*
@@ -76,7 +83,6 @@ public class Annotation1
 		@Anno5
 		public void run()
 		{
-
 		}
 
 		/*
@@ -85,7 +91,14 @@ public class Annotation1
 		@Anno6(size = Size.SMALL)
 		public void size()
 		{
-
+		}
+		
+		/*
+		 * 嵌套Annotation
+		 */
+		@Anno7(name = "mm", value = { @Anno1("1"),  @Anno1("2")})
+		public void cray()
+		{
 		}
 	}
 
@@ -126,4 +139,10 @@ public class Annotation1
 		Size size() default Size.SMALL;
 	}
 
+	static @interface Anno7
+	{
+		String name();
+
+		Anno1[] value();
+	}
 }
