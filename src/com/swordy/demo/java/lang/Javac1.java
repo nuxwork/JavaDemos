@@ -10,8 +10,6 @@ package com.swordy.demo.java.lang;
  */
 public class Javac1
 {
-	private static final String TAG = "JavaDemos.Javac1";
-
 	public static void main(String[] args)
 	{
 		/*
@@ -21,7 +19,12 @@ public class Javac1
 		
 		int a = 2 * 2;
 		int b = 4;
-		System.out.println(a +" , "+ b);
+		int c = a + b;
+		
+		String str1 = "hello";
+		String str2 = ",world";
+		String str3 = "hello" + ", world";
+		String str4 = str1 + str2;
 	}
 }
 
@@ -29,19 +32,18 @@ public class Javac1
 /*
  * 以下是反编译Javac1.class后的代码：
  
-package com.swordy.demo.java.lang;
-
-import java.io.PrintStream;
-
 public class Javac1
 {
-  private static final String TAG = "JavaDemos.Javac1";
-
   public static void main(String[] args)
   {
     int a = 4;
     int b = 4;
-    System.out.println(a + " , " + b);
+    int c = a + b;
+
+    String str1 = "hello";
+    String str2 = ",world";
+    String str3 = "hello, world";
+    String str4 = str1 + str2;
   }
 }
 
